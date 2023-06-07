@@ -1,1 +1,6 @@
-{"date":"2023-03-01T19:37:29+05:30"}
+from django.apps import AppConfig
+
+
+class BaseConfig(AppConfig):
+    default_auto_field = "django.db.models.BigAutoField"
+    name = "base"
